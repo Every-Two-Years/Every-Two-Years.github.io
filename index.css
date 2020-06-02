@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('fonts/CooperHewitt-Heavy.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cooper Hewitt' !important;
+}
+#footer, #navbar {
+  background-color: #63b7af;
+  padding: 1em;
+}
+#navbar {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+}
+#navbar a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #d4f3ef;
+  letter-spacing: .05em;
+  padding-left: 1em;
+}
+#navbar #logo a {
+  font-size: 0;
+  letter-spacing: 0;
+  padding: 0;
+}
+#navbar img {
+  height: 64px;
+}
+#splash {
+  position: relative;
+  overflow: hidden;
+  padding: 2em;
+}
+#splash-video {
+  height: 100%;
+  width: 177.77777778vh; /* 100 * 16 / 9 */
+  min-width: 100%;
+  min-height: 56.25vw; /* 100 * 9 / 16 */
+  position: absolute;
+  left: 50%; /* % of surrounding element */
+  transform: translate(-50%, -25%); /* % of current element */
+  z-index: -100;
+}
+#splash h1 {
+  color: white;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: bold;
+  font-family: 'Cooper Hewitt';
+  letter-spacing: .1em;
+  text-shadow: -2px 0 #71717182, 0 2px #71717182, 2px 0 #71717182, 0 -2px #71717182;
+}
+#mc_embed_signup{
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width:100%;
+}
+#mc_embed_signup input.email {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#mc-embedded-subscribe {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+#splash .button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ee8572 !important;
+  font-size: 13px;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: .03em;
+  color: #fff;
+  background-color:#aaa;
+  box-sizing:border-box;
+  height:32px;
+  line-height:32px;
+  padding:0 18px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+  text-decoration:none;
+}
+#splash .button:hover {
+  background-color:#777;
+  cursor:pointer;
+}
+@media (max-width: 768px) {
+  #splash .button {
+    width: 100%;
+    margin:0;
+  }
+}
+#content {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-width: 800px;
+  margin: auto;
+}
+#content .callout {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.5em;
+  color: #353535;
+}
+#content .subcontext {
+  text-align: justify;
+  text-align-last: center;
+}
+#content .measurement {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 1em;
+  padding: 2em;
+  margin-bottom: 1em;
+  color: white;
+  background-color: purple;
+}
+#content .measurement .icon {
+  position: absolute;
+  height: 100%;
+  width: 64px;
+}
+#content .measurement .icon img {
+  max-height: 100%;
+  max-width: 100%;
+}
+#content .measurement .title {
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+#content .measurement .description {
+  margin-left: 80px;
+  text-align: justify;
+}
+#content table {
+  text-align: center;
+  margin: auto;
+}
+#content th > img {
+  width: 32px;
+  height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#content table .status {
+  width: 32px;
+  height: 32px;
+  margin: auto;
+}
+#footer a {
+  text-decoration: none;
+  color: #d4f3ef;
+}
+#footer {
+  color: #d4f3ef;
+  text-align: center;
+}
