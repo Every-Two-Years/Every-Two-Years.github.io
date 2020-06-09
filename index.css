@@ -163,7 +163,7 @@ body {
   text-align: center;
   margin: auto;
 }
-#content th > img {
+#content th > a > img {
   width: 32px;
   height: 32px;
   padding-left: 10px;
