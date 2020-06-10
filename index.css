@@ -45,6 +45,20 @@ body {
 #navbar img {
   height: 64px;
 }
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar > div {
+    padding-top: 1em;
+  }
+  #navbar a {
+    font-size: 1em;
+    padding: 0;
+  }
+}
+
 #splash {
   position: relative;
   overflow: hidden;
@@ -111,6 +125,9 @@ body {
   #splash .button {
     width: 100%;
     margin:0;
+  }
+  #splash h1 {
+    font-size: 2.7em;
   }
 }
 #content {
