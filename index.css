@@ -48,6 +48,11 @@ body {
 #navbar img {
   height: 64px;
 }
+#navbar form input {
+  outline: inherit;
+  border: none;
+  background: none;
+}
 @media (max-width: 768px) {
   #navbar {
     flex-direction: column;
