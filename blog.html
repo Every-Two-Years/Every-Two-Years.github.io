@@ -1,0 +1,20 @@
+---
+---
+<div class="callout">
+  Blog Posts
+</div>
+<div class="posts">
+{% for post in site.posts %}
+  <div class="post">
+    <a href="{{ post.url }}">
+      <img src="{{ post.socialImage }}"/>
+      <div class="metadata">
+        <div class="date">{{ post.date | date_to_string }}</div>
+        <div class="title">{{ post.title }}</div>
+        <div class="author">{{ post.author }}</div>
+      </div>
+    </a>
+    <div class="excerpt">{{ post.excerpt }}</div>
+  </div>
+{% endfor %}
+</div>

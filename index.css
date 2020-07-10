@@ -10,10 +10,34 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Light.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-LightItalic.ttf');
+    font-weight: lighter;
+    font-style: italic;
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Cooper Hewitt' !important;
+  font-family: 'Cooper Hewitt';
 }
 #footer, #navbar {
   background-color: #63b7af;
@@ -233,4 +257,68 @@ body {
 #footer {
   color: #d4f3ef;
   text-align: center;
+}
+
+/* BLOG LIST */
+.post .metadata > * {
+  display: inline;
+}
+
+.post > a {
+  text-decoration: none;
+  color: black;
+}
+
+.post .metadata .title {
+  font-size: 2em;
+}
+
+.post .metadata .author {
+  display: none;
+}
+
+.post .excerpt h1 {
+  font-size: 1.1em;
+}
+
+.post > a > img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.post .metadata {
+  padding: 1em
+}
+
+.post .excerpt {
+  padding: 0 1em
+}
+
+.post {
+  border-top: solid #353535 2px;
+  padding: 1em 0;
+}
+
+/* BLOG  POST */
+
+.blog {
+  font-family: 'OpenSans';
+}
+
+.blog > img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.blog .metadata .date, .blog .metadata .author {
+  display: inline;
+}
+
+.blog .metadata {
+  padding: 1em;
+  font-family: 'Cooper Hewitt';
+}
+
+.blog .metadata .title {
+  font-size: 2em;
 }
