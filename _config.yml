@@ -4,6 +4,6 @@ defaults:
     values:
       layout: default
       title: "Every Two Years"
-      socialImage: "https://everytwoyears.org/media/social/2.png"
+      socialImage: "/media/social/2.png"
       socialDescription: "Want a voice? Join us."
       socialTitle: "Take Back Democracy"
