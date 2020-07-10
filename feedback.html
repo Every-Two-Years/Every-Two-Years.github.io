@@ -1,63 +1,10 @@
+---
+---
 <html>
-  <head>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <script src="https://cdn.usefathom.com/script.js" site="TUTOUBMP" defer></script>
-    <link href="mailchimp-signup.css" rel="stylesheet" type="text/css">
-    <link href="./normalize.css" rel="stylesheet" type="text/css"/>
-    <link href="./index.css" rel="stylesheet" type="text/css"/>
-    <title>Every Two Years - Feedback</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="twitter:card" content="summary_large_image"></meta>
-    <meta name="twitter:site" content="@two_every" />
-    <meta property="og:url" content="https://everytwoyears.org" />
-    <meta property="og:title" content="Take Back Democracy" />
-    <meta property="og:description" content="Want a voice? Join us." />
-    <meta property="og:image" content="https://everytwoyears.org/media/social/2.png" />
-  </head>
+  {% include head.html %}
   <body>
-    <div id="navbar">
-      <div id="logo">
-        <a href="./index.html">
-          <img alt="Every Two Years Logo" src="./media/logo.png"></img>
-        </a>
-      </div>
-      <div id="link">
-        <a href="./faq.html">FAQ</a>
-      </div>
-      <div id="link">
-        <a href="./mission.html">Mission</a>
-      </div>
-      <div id="link">
-        <a href="https://everytwoyears.api.stdlib.com/donate/">Donate</a>
-      </div>
-    </div>
-    <div id="splash">
-      <video id="splash-video" onloadeddata="this.play();" disablePictureInPicture autoplay playsinline loop muted>
-        <source src="./media/flag.mp4"/>
-      </video>
-      <h1>
-        Help With Feedback
-      </h1>
-      <!-- Begin Mailchimp Signup Form -->
-      <div id="mc_embed_signup">
-        <form action="https://everytwoyears.us10.list-manage.com/subscribe/post?u=2ebfd154d79511b03d5919c78&amp;id=36d6fafc28" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><!--
-            --><div class="clear"><!--
-              --><input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input type="text" name="b_2ebfd154d79511b03d5919c78_36d6fafc28" tabindex="-1" value="">
-            </div>
-          </div>
-        </form>
-      </div>
-      <!--End mc_embed_signup-->
-    </div>
+    {% include navbar.html %}
+    {% include splash.html %}
     <div id="content">
       <div class="callout">
         Thanks for considering us
