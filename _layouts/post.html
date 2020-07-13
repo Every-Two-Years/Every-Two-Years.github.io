@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="blog">
+  <img src="{{ page.socialImage }}"/>
+  <div class="metadata">
+    <div class="title">{{ page.title }}</div>
+    <div class="date">{{ page.date | date_to_string }}</div>
+    <div class="author">{{ page.author }}</div>
+  </div>
+  {{ content }}
+</div>

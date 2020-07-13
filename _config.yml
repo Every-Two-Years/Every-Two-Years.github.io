@@ -7,3 +7,4 @@ defaults:
       socialImage: "/media/social/2.png"
       socialDescription: "Want a voice? Join us."
       socialTitle: "Take Back Democracy"
+      excerpt_separator: "<!--more-->"
